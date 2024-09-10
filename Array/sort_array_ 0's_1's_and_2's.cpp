@@ -11,7 +11,7 @@ public:
                     m++;
                     break;
                 case 2:
-                    swap(nums[m++], nums[r--]);
+                    swap(nums[m], nums[r--]);
                     break;
             }
         }
